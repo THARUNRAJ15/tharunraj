@@ -1,0 +1,203 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body and general styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-image:url(tharunball.jpg);
+}
+
+/* Container for layout consistency */
+.container {
+    width: 80%;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+/* Header */
+header {
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+   
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.1rem;
+    padding: 10px 20px;
+    transition: background-color 0.3s ease;
+    
+}
+
+nav ul li a:hover {
+    background-color: #555;
+    border-radius: 5px;
+}
+
+/* Hero Section */
+.hero-section {
+    background: url(imageturf.jpg) center/cover no-repeat;
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.hero-content h2 {
+    font-size: 3rem;
+    color: white;
+    background-image: url(tharunturfimage.jpg);
+}
+
+.hero-content p {
+    font-size: 1.5rem;
+    color: white;
+    margin-bottom: 20px;
+    background-image: url(tharunturfimage.jpg);
+}
+
+.btn-primary {
+    padding: 10px 20px;
+    background-color: #28a745;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+}
+
+.btn-primary:hover {
+    background-color: #218838;
+}
+
+/* About Section */
+.about-section {
+    padding: 60px 0;
+    background-color: #fff;
+    text-align: center;
+    background-image: url(tharunball.jpg);
+}
+
+.about-section h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    background-image: url(tharunbat.jpg);
+}
+
+.about-section p {
+    font-size: 1.2rem;
+    max-width: 800px;
+    margin: 0 auto;
+    
+}
+
+/* Facilities Section */
+.facilities-section {
+    padding: 60px 0;
+    background-color: #e9ecef;
+    text-align: center;
+    background-image: url(tharuncricket.jpg);
+}
+
+.facilities-section h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.facilities-section ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.facilities-section ul li {
+    font-size: 1.2rem;
+    margin: 10px 0;
+}
+
+/* Contact Section */
+.contact-section {
+    padding: 60px 0;
+    background-color: #fff;
+    text-align: center;
+    background-image: url(tharunimage.jpg);
+}
+
+.contact-section h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    background-image: url(tharunbat.jpg);
+}
+
+.contact-section form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.contact-section form input,
+.contact-section form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    font-size: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+
+}
+
+.contact-section form button {
+    padding: 10px 20px;
+    background-color: #28a745;
+    color: white;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+   
+}
+
+.contact-section form button:hover {
+    background-color: #218838;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    background-image: url(tharunimage.jpg);
+}
+
+footer p {
+    margin: 0;
+}
